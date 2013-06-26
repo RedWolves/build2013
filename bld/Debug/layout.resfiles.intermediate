@@ -67,7 +67,6 @@ images\smalllogo.png
 images\splashscreen.png
 images\storelogo.png
 js\ajax-definitions.js
-js\appbar.js
 js\default.js
 js\script.js
 packages.config

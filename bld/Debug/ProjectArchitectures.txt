@@ -1,1 +1,1 @@
-C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\amplifyjs.jsproj;neutral
+C:\Users\jonathansampson\Documents\GitHub\build2013\amplifyjs.jsproj;neutral

@@ -120,7 +120,6 @@
     <Content Include="images\smalllogo.png" />
     <Content Include="images\splashscreen.png" />
     <Content Include="images\storelogo.png" />
-    <Content Include="js\appbar.js" />
     <Content Include="js\default.js" />
     <Content Include="css\default.css" />
     <Content Include="js\ajax-definitions.js" />

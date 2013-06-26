@@ -8,6 +8,23 @@
         id: "54680"
     }];
 
+    var appbar = new WinJS.UI.AppBar(null, {
+        layout: "custom",
+        position: "bottom",
+        commands: [
+            new WinJS.UI.AppBarCommand(null, {
+                icon: WinJS.UI.AppBarIcon.home,
+                label: "Go Home"
+            }),
+            new WinJS.UI.AppBarCommand(null, {
+                icon: WinJS.UI.AppBarIcon.add,
+                label: "Add User"
+            })
+        ]
+    });
+
+    $("body").append(appbar.element);
+
     $.each(speakers, function (i, speaker) {
         amplify.request("stacker.User", { id: speaker.id }, function (data) {
             var dataItem = data.items[0];

@@ -11,3 +11,16 @@ c:\users\ralph\documents\visual studio 2012\Projects\amplifyjs\bld\Debug\resourc
 c:\users\ralph\documents\visual studio 2012\Projects\amplifyjs\bld\Debug\pri.resfiles
 c:\users\ralph\documents\visual studio 2012\Projects\amplifyjs\bld\Debug\LanguageQualifiers.txt
 c:\users\ralph\documents\visual studio 2012\Projects\amplifyjs\bld\Debug\ProjectArchitectures.txt
+C:\Users\jonathansampson\Documents\GitHub\build2013\bin\Debug\resources.pri
+C:\Users\jonathansampson\Documents\GitHub\build2013\bin\Debug\AppxManifest.xml
+C:\Users\jonathansampson\Documents\GitHub\build2013\bld\Debug\priconfig.xml
+C:\Users\jonathansampson\Documents\GitHub\build2013\bld\Debug\layout.resfiles
+C:\Users\jonathansampson\Documents\GitHub\build2013\bld\Debug\resources.resfiles
+C:\Users\jonathansampson\Documents\GitHub\build2013\bld\Debug\pri.resfiles
+C:\Users\jonathansampson\Documents\GitHub\build2013\bld\Debug\LanguageQualifiers.txt
+C:\Users\jonathansampson\Documents\GitHub\build2013\bld\Debug\ProjectArchitectures.txt
+C:\Users\jonathansampson\Documents\GitHub\build2013\bin\Debug\amplifyjs.build.appxrecipe
+C:\Users\jonathansampson\Documents\GitHub\build2013\bld\Debug\priconfig.xml.intermediate
+C:\Users\jonathansampson\Documents\GitHub\build2013\bld\Debug\layout.resfiles.intermediate
+C:\Users\jonathansampson\Documents\GitHub\build2013\bld\Debug\resources.resfiles.intermediate
+C:\Users\jonathansampson\Documents\GitHub\build2013\bld\Debug\pri.resfiles.intermediate

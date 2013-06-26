@@ -1,6 +1,6 @@
 ﻿    var api_url = "https://api.stackexchange.com/2.1/";
     var site_name = "stackoverflow";
-    site = "?order=asc&site=" + site_name;
+    var site = "?order=asc&site=" + site_name;
     var user = {};
 
     //stacker.User
