@@ -1,0 +1,13 @@
+c:\users\ralph\documents\visual studio 2012\Projects\amplifyjs\bin\Debug\resources.pri
+c:\users\ralph\documents\visual studio 2012\Projects\amplifyjs\bin\Debug\AppxManifest.xml
+c:\users\ralph\documents\visual studio 2012\Projects\amplifyjs\bin\Debug\amplifyjs.build.appxrecipe
+c:\users\ralph\documents\visual studio 2012\Projects\amplifyjs\bld\Debug\priconfig.xml.intermediate
+c:\users\ralph\documents\visual studio 2012\Projects\amplifyjs\bld\Debug\layout.resfiles.intermediate
+c:\users\ralph\documents\visual studio 2012\Projects\amplifyjs\bld\Debug\resources.resfiles.intermediate
+c:\users\ralph\documents\visual studio 2012\Projects\amplifyjs\bld\Debug\pri.resfiles.intermediate
+c:\users\ralph\documents\visual studio 2012\Projects\amplifyjs\bld\Debug\priconfig.xml
+c:\users\ralph\documents\visual studio 2012\Projects\amplifyjs\bld\Debug\layout.resfiles
+c:\users\ralph\documents\visual studio 2012\Projects\amplifyjs\bld\Debug\resources.resfiles
+c:\users\ralph\documents\visual studio 2012\Projects\amplifyjs\bld\Debug\pri.resfiles
+c:\users\ralph\documents\visual studio 2012\Projects\amplifyjs\bld\Debug\LanguageQualifiers.txt
+c:\users\ralph\documents\visual studio 2012\Projects\amplifyjs\bld\Debug\ProjectArchitectures.txt

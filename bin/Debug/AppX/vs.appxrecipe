@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>RALPHS-YOGA</Machine>
+    <WindowsUser>Ralph</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>7880EDCD3C42E160310B22C3D0229276608324E83BD1D3DF95CDCD0C69021B74</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>6278ffd0-485f-4ae3-894e-dabe0c723292_1.0.0.0_neutral__e4zkcfr8ebjb0</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>6278ffd0-485f-4ae3-894e-dabe0c723292_e4zkcfr8ebjb0!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>6278ffd0-485f-4ae3-894e-dabe0c723292</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Ralph</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-06-26T02:29:25.071</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\images\animated-overlay.gif">
+      <PackagePath>Content\themes\base\images\animated-overlay.gif</PackagePath>
+      <Modified>2013-06-25T04:04:51.840</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\minified\images\animated-overlay.gif">
+      <PackagePath>Content\themes\base\minified\images\animated-overlay.gif</PackagePath>
+      <Modified>2013-06-25T04:04:49.013</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png">
+      <PackagePath>Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png</PackagePath>
+      <Modified>2013-06-25T04:04:51.760</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png">
+      <PackagePath>Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png</PackagePath>
+      <Modified>2013-06-25T04:04:51.661</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png">
+      <PackagePath>Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png</PackagePath>
+      <Modified>2013-06-25T04:04:51.575</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png">
+      <PackagePath>Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png</PackagePath>
+      <Modified>2013-06-25T04:04:51.500</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png">
+      <PackagePath>Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png</PackagePath>
+      <Modified>2013-06-25T04:04:51.424</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png">
+      <PackagePath>Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png</PackagePath>
+      <Modified>2013-06-25T04:04:51.344</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png">
+      <PackagePath>Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png</PackagePath>
+      <Modified>2013-06-25T04:04:51.264</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png">
+      <PackagePath>Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png</PackagePath>
+      <Modified>2013-06-25T04:04:51.161</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\images\ui-icons_222222_256x240.png">
+      <PackagePath>Content\themes\base\images\ui-icons_222222_256x240.png</PackagePath>
+      <Modified>2013-06-25T04:04:51.062</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\images\ui-icons_2e83ff_256x240.png">
+      <PackagePath>Content\themes\base\images\ui-icons_2e83ff_256x240.png</PackagePath>
+      <Modified>2013-06-25T04:04:50.968</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\images\ui-icons_454545_256x240.png">
+      <PackagePath>Content\themes\base\images\ui-icons_454545_256x240.png</PackagePath>
+      <Modified>2013-06-25T04:04:50.886</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\images\ui-icons_888888_256x240.png">
+      <PackagePath>Content\themes\base\images\ui-icons_888888_256x240.png</PackagePath>
+      <Modified>2013-06-25T04:04:50.796</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\images\ui-icons_cd0a0a_256x240.png">
+      <PackagePath>Content\themes\base\images\ui-icons_cd0a0a_256x240.png</PackagePath>
+      <Modified>2013-06-25T04:04:50.697</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\minified\images\ui-bg_flat_0_aaaaaa_40x100.png">
+      <PackagePath>Content\themes\base\minified\images\ui-bg_flat_0_aaaaaa_40x100.png</PackagePath>
+      <Modified>2013-06-25T04:04:48.918</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\minified\images\ui-bg_flat_75_ffffff_40x100.png">
+      <PackagePath>Content\themes\base\minified\images\ui-bg_flat_75_ffffff_40x100.png</PackagePath>
+      <Modified>2013-06-25T04:04:48.815</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\minified\images\ui-bg_glass_55_fbf9ee_1x400.png">
+      <PackagePath>Content\themes\base\minified\images\ui-bg_glass_55_fbf9ee_1x400.png</PackagePath>
+      <Modified>2013-06-25T04:04:48.673</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\minified\images\ui-bg_glass_65_ffffff_1x400.png">
+      <PackagePath>Content\themes\base\minified\images\ui-bg_glass_65_ffffff_1x400.png</PackagePath>
+      <Modified>2013-06-25T04:04:48.528</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\minified\images\ui-bg_glass_75_dadada_1x400.png">
+      <PackagePath>Content\themes\base\minified\images\ui-bg_glass_75_dadada_1x400.png</PackagePath>
+      <Modified>2013-06-25T04:04:48.399</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\minified\images\ui-bg_glass_75_e6e6e6_1x400.png">
+      <PackagePath>Content\themes\base\minified\images\ui-bg_glass_75_e6e6e6_1x400.png</PackagePath>
+      <Modified>2013-06-25T04:04:48.261</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\minified\images\ui-bg_glass_95_fef1ec_1x400.png">
+      <PackagePath>Content\themes\base\minified\images\ui-bg_glass_95_fef1ec_1x400.png</PackagePath>
+      <Modified>2013-06-25T04:04:48.127</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\minified\images\ui-bg_highlight-soft_75_cccccc_1x100.png">
+      <PackagePath>Content\themes\base\minified\images\ui-bg_highlight-soft_75_cccccc_1x100.png</PackagePath>
+      <Modified>2013-06-25T04:04:47.982</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\minified\images\ui-icons_222222_256x240.png">
+      <PackagePath>Content\themes\base\minified\images\ui-icons_222222_256x240.png</PackagePath>
+      <Modified>2013-06-25T04:04:47.859</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\minified\images\ui-icons_2e83ff_256x240.png">
+      <PackagePath>Content\themes\base\minified\images\ui-icons_2e83ff_256x240.png</PackagePath>
+      <Modified>2013-06-25T04:04:47.731</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\minified\images\ui-icons_454545_256x240.png">
+      <PackagePath>Content\themes\base\minified\images\ui-icons_454545_256x240.png</PackagePath>
+      <Modified>2013-06-25T04:04:47.643</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\minified\images\ui-icons_888888_256x240.png">
+      <PackagePath>Content\themes\base\minified\images\ui-icons_888888_256x240.png</PackagePath>
+      <Modified>2013-06-25T04:04:47.513</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\minified\images\ui-icons_cd0a0a_256x240.png">
+      <PackagePath>Content\themes\base\minified\images\ui-icons_cd0a0a_256x240.png</PackagePath>
+      <Modified>2013-06-25T04:04:47.352</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-01-28T05:25:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-01-28T05:25:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-01-28T05:25:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-01-28T05:25:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\jquery-ui.css">
+      <PackagePath>Content\themes\base\jquery-ui.css</PackagePath>
+      <Modified>2013-06-25T04:04:49.122</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\jquery.ui.accordion.css">
+      <PackagePath>Content\themes\base\jquery.ui.accordion.css</PackagePath>
+      <Modified>2013-06-25T04:04:50.545</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\jquery.ui.all.css">
+      <PackagePath>Content\themes\base\jquery.ui.all.css</PackagePath>
+      <Modified>2013-06-25T04:04:50.464</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\jquery.ui.autocomplete.css">
+      <PackagePath>Content\themes\base\jquery.ui.autocomplete.css</PackagePath>
+      <Modified>2013-06-25T04:04:50.393</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\jquery.ui.base.css">
+      <PackagePath>Content\themes\base\jquery.ui.base.css</PackagePath>
+      <Modified>2013-06-25T04:04:50.331</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\jquery.ui.button.css">
+      <PackagePath>Content\themes\base\jquery.ui.button.css</PackagePath>
+      <Modified>2013-06-25T04:04:50.258</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\jquery.ui.core.css">
+      <PackagePath>Content\themes\base\jquery.ui.core.css</PackagePath>
+      <Modified>2013-06-25T04:04:50.195</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\jquery.ui.datepicker.css">
+      <PackagePath>Content\themes\base\jquery.ui.datepicker.css</PackagePath>
+      <Modified>2013-06-25T04:04:50.129</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\jquery.ui.dialog.css">
+      <PackagePath>Content\themes\base\jquery.ui.dialog.css</PackagePath>
+      <Modified>2013-06-25T04:04:50.047</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\jquery.ui.menu.css">
+      <PackagePath>Content\themes\base\jquery.ui.menu.css</PackagePath>
+      <Modified>2013-06-25T04:04:49.980</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\jquery.ui.progressbar.css">
+      <PackagePath>Content\themes\base\jquery.ui.progressbar.css</PackagePath>
+      <Modified>2013-06-25T04:04:49.892</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\jquery.ui.resizable.css">
+      <PackagePath>Content\themes\base\jquery.ui.resizable.css</PackagePath>
+      <Modified>2013-06-25T04:04:49.807</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\jquery.ui.selectable.css">
+      <PackagePath>Content\themes\base\jquery.ui.selectable.css</PackagePath>
+      <Modified>2013-06-25T04:04:49.730</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\jquery.ui.slider.css">
+      <PackagePath>Content\themes\base\jquery.ui.slider.css</PackagePath>
+      <Modified>2013-06-25T04:04:49.655</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\jquery.ui.spinner.css">
+      <PackagePath>Content\themes\base\jquery.ui.spinner.css</PackagePath>
+      <Modified>2013-06-25T04:04:49.560</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\jquery.ui.tabs.css">
+      <PackagePath>Content\themes\base\jquery.ui.tabs.css</PackagePath>
+      <Modified>2013-06-25T04:04:49.481</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\jquery.ui.theme.css">
+      <PackagePath>Content\themes\base\jquery.ui.theme.css</PackagePath>
+      <Modified>2013-06-25T04:04:49.371</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\jquery.ui.tooltip.css">
+      <PackagePath>Content\themes\base\jquery.ui.tooltip.css</PackagePath>
+      <Modified>2013-06-25T04:04:49.249</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\minified\jquery-ui.min.css">
+      <PackagePath>Content\themes\base\minified\jquery-ui.min.css</PackagePath>
+      <Modified>2013-06-25T04:04:44.462</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\minified\jquery.ui.accordion.min.css">
+      <PackagePath>Content\themes\base\minified\jquery.ui.accordion.min.css</PackagePath>
+      <Modified>2013-06-25T04:04:47.092</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\minified\jquery.ui.autocomplete.min.css">
+      <PackagePath>Content\themes\base\minified\jquery.ui.autocomplete.min.css</PackagePath>
+      <Modified>2013-06-25T04:04:46.959</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\minified\jquery.ui.button.min.css">
+      <PackagePath>Content\themes\base\minified\jquery.ui.button.min.css</PackagePath>
+      <Modified>2013-06-25T04:04:46.786</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\minified\jquery.ui.core.min.css">
+      <PackagePath>Content\themes\base\minified\jquery.ui.core.min.css</PackagePath>
+      <Modified>2013-06-25T04:04:46.656</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\minified\jquery.ui.datepicker.min.css">
+      <PackagePath>Content\themes\base\minified\jquery.ui.datepicker.min.css</PackagePath>
+      <Modified>2013-06-25T04:04:46.532</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\minified\jquery.ui.dialog.min.css">
+      <PackagePath>Content\themes\base\minified\jquery.ui.dialog.min.css</PackagePath>
+      <Modified>2013-06-25T04:04:46.381</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\minified\jquery.ui.menu.min.css">
+      <PackagePath>Content\themes\base\minified\jquery.ui.menu.min.css</PackagePath>
+      <Modified>2013-06-25T04:04:46.235</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\minified\jquery.ui.progressbar.min.css">
+      <PackagePath>Content\themes\base\minified\jquery.ui.progressbar.min.css</PackagePath>
+      <Modified>2013-06-25T04:04:45.946</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\minified\jquery.ui.resizable.min.css">
+      <PackagePath>Content\themes\base\minified\jquery.ui.resizable.min.css</PackagePath>
+      <Modified>2013-06-25T04:04:45.782</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\minified\jquery.ui.selectable.min.css">
+      <PackagePath>Content\themes\base\minified\jquery.ui.selectable.min.css</PackagePath>
+      <Modified>2013-06-25T04:04:45.625</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\minified\jquery.ui.slider.min.css">
+      <PackagePath>Content\themes\base\minified\jquery.ui.slider.min.css</PackagePath>
+      <Modified>2013-06-25T04:04:45.418</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\minified\jquery.ui.spinner.min.css">
+      <PackagePath>Content\themes\base\minified\jquery.ui.spinner.min.css</PackagePath>
+      <Modified>2013-06-25T04:04:45.227</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\minified\jquery.ui.tabs.min.css">
+      <PackagePath>Content\themes\base\minified\jquery.ui.tabs.min.css</PackagePath>
+      <Modified>2013-06-25T04:04:45.074</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\minified\jquery.ui.theme.min.css">
+      <PackagePath>Content\themes\base\minified\jquery.ui.theme.min.css</PackagePath>
+      <Modified>2013-06-25T04:04:44.895</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Content\themes\base\minified\jquery.ui.tooltip.min.css">
+      <PackagePath>Content\themes\base\minified\jquery.ui.tooltip.min.css</PackagePath>
+      <Modified>2013-06-25T04:04:44.720</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2013-06-26T02:07:20.751</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2013-06-26T01:52:42.892</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\js\appbar.js">
+      <PackagePath>js\appbar.js</PackagePath>
+      <Modified>2013-06-26T02:29:18.184</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2012-12-30T23:37:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\js\ajax-definitions.js">
+      <PackagePath>js\ajax-definitions.js</PackagePath>
+      <Modified>2013-06-26T02:15:15.651</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\js\script.js">
+      <PackagePath>js\script.js</PackagePath>
+      <Modified>2013-06-26T02:06:06.823</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Scripts\amplify-vsdoc.js">
+      <PackagePath>Scripts\amplify-vsdoc.js</PackagePath>
+      <Modified>2013-06-22T03:46:25.483</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Scripts\amplify.js">
+      <PackagePath>Scripts\amplify.js</PackagePath>
+      <Modified>2013-06-22T03:46:25.872</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Scripts\amplify.min.js">
+      <PackagePath>Scripts\amplify.min.js</PackagePath>
+      <Modified>2013-06-22T03:46:25.650</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Scripts\jquery-2.0.2.intellisense.js">
+      <PackagePath>Scripts\jquery-2.0.2.intellisense.js</PackagePath>
+      <Modified>2013-06-22T03:46:49.389</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Scripts\jquery-2.0.2.js">
+      <PackagePath>Scripts\jquery-2.0.2.js</PackagePath>
+      <Modified>2013-06-22T03:46:53.554</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Scripts\jquery-2.0.2.min.js">
+      <PackagePath>Scripts\jquery-2.0.2.min.js</PackagePath>
+      <Modified>2013-06-22T03:46:53.257</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Scripts\jquery-ui-1.10.3.js">
+      <PackagePath>Scripts\jquery-ui-1.10.3.js</PackagePath>
+      <Modified>2013-06-25T04:04:43.335</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Scripts\jquery-ui-1.10.3.min.js">
+      <PackagePath>Scripts\jquery-ui-1.10.3.min.js</PackagePath>
+      <Modified>2013-06-25T04:04:41.997</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\packages.config">
+      <PackagePath>packages.config</PackagePath>
+      <Modified>2013-06-25T04:04:51.928</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Scripts\GPL-LICENSE.txt">
+      <PackagePath>Scripts\GPL-LICENSE.txt</PackagePath>
+      <Modified>2013-06-22T03:46:25.298</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Scripts\MIT-LICENSE.txt">
+      <PackagePath>Scripts\MIT-LICENSE.txt</PackagePath>
+      <Modified>2013-06-22T03:46:25.084</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Scripts\README.txt">
+      <PackagePath>Scripts\README.txt</PackagePath>
+      <Modified>2013-06-22T03:46:24.863</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Scripts\jquery-2.0.2.min.map">
+      <PackagePath>Scripts\jquery-2.0.2.min.map</PackagePath>
+      <Modified>2013-06-22T03:46:53.005</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-06-26T02:29:24.913</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.9200.20602</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.9200.20602</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
