@@ -14,7 +14,11 @@
         commands: [
             new WinJS.UI.AppBarCommand(null, {
                 icon: WinJS.UI.AppBarIcon.home,
-                label: "Go Home"
+                label: "Go Home",
+                onclick: function () {
+                    $("#side-bar").show();
+                    $("#dataCanvas").hide();
+                }
             }),
             new WinJS.UI.AppBarCommand(null, {
                 icon: WinJS.UI.AppBarIcon.add,

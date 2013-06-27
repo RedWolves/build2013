@@ -306,7 +306,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jonathansampson\Documents\GitHub\build2013\js\script.js">
       <PackagePath>js\script.js</PackagePath>
-      <Modified>2013-06-26T18:45:39.415</Modified>
+      <Modified>2013-06-27T01:32:38.660</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jonathansampson\Documents\GitHub\build2013\Scripts\amplify-vsdoc.js">
       <PackagePath>Scripts\amplify-vsdoc.js</PackagePath>
