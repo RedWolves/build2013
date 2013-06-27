@@ -221,9 +221,6 @@
     <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\default.html">
       <PackagePath>default.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\js\appbar.js">
-      <PackagePath>js\appbar.js</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\js\default.js">
       <PackagePath>js\default.js</PackagePath>
     </AppxPackagedFile>
