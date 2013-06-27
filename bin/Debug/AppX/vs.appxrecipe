@@ -290,7 +290,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2013-06-27T02:44:46.067</Modified>
+      <Modified>2013-06-27T14:17:14.650</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\default.html">
       <PackagePath>default.html</PackagePath>
@@ -306,7 +306,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\js\script.js">
       <PackagePath>js\script.js</PackagePath>
-      <Modified>2013-06-27T13:44:47.342</Modified>
+      <Modified>2013-06-27T14:19:09.508</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Scripts\amplify-vsdoc.js">
       <PackagePath>Scripts\amplify-vsdoc.js</PackagePath>

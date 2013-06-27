@@ -81,6 +81,13 @@
 }
 
 @media screen and (-ms-view-state: snapped) {
+    #side-bar ul {
+        margin-left: 0;
+    }
+
+    #side-bar img {
+        width: 175px;
+    }
 }
 
 @media screen and (-ms-view-state: fullscreen-portrait) {

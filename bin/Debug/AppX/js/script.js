@@ -69,6 +69,7 @@
 
 var tab_profile = function (speaker) {
     var tab = $("#profile");
+    tab.html("");
 
     var creation_date = new Date(speaker.items.creation_date * 1000);
 
@@ -84,6 +85,7 @@ var tab_profile = function (speaker) {
 
 var tab_badges = function (speaker) {
     var tab = $("#badges");
+    tab.html("");
 
     tab.append($("<ul></ul>", { id: "badge-count" })
                              .append("<li>Gold - " + speaker.items.badge_counts.gold + "</li>")
@@ -99,6 +101,8 @@ var tab_badges = function (speaker) {
 
 var tab_tags = function (speaker) {
     var tab = $("#tags");
+    tab.html("");
+
     tab.append($("<ul></ul>"));
     amplify.request("stacker.User.Tags", { id: speaker.id }, function (data) {
         $.each(data.items, function (i, tag) {
