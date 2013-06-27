@@ -26,62 +26,20 @@
         $("#dataCanvas").show();
 
         amplify.request("stacker.User.Badges", { id: id }, function (data) {
-            $.each(speakers, function (i, speaker) {
+            $.each( speakers, function ( i, speaker ) {
                 if (speaker.id == id) {
-                    tab_profile(speaker);
-                    tab_badges(speaker);
-                    tab_tags(speaker);
-
-                    $("#tabs").tabs();
+                    var badgeCounts = speaker.items.badge_counts;
+                    $("#dataCanvas")
+                        .html("<ul></ul>", { id: "badge-count" })
+                            .append("<li>Gold - " + badgeCounts.gold + "</li>")
+                            .append("<li>Silver - " + badgeCounts.silver + "</li>")
+                            .append("<li>Bronze - " + badgeCounts.bronze + "</li>");
                 }
             });
-
-
-
+            
+            
+                            
         });
 
     });
 });
-
-
-
-
-var tab_profile = function (speaker) {
-    var tab = $("#profile");
-
-    var creation_date = new Date( speaker.items.creation_date * 1000);
-
-    tab.append( $("<h1></h1>").text(speaker.items.display_name));
-
-    tab.append( $("<img/>", {
-                     src: speaker.items.profile_image
-                })
-    );
-
-    tab.append($("<p></p>").text("Created on: " + creation_date.toDateString()));
-};
-
-var tab_badges = function (speaker) {
-    var tab = $("#badges");
-
-    tab.append( $("<ul></ul>", { id: "badge-count" })
-                             .append("<li>Gold - " + speaker.items.badge_counts.gold + "</li>")
-                             .append("<li>Silver - " + speaker.items.badge_counts.silver + "</li>")
-                             .append("<li>Bronze - " + speaker.items.badge_counts.bronze + "</li>"));
-
-    amplify.request("stacker.User.Badges", { id: speaker.id }, function (data) {
-        $.each(data.items, function (i, badge) {
-            tab.append($("<div></div>").text(badge.rank + ": " + badge.name + " x " + badge.award_count));
-        });
-    });
-};
-
-var tab_tags = function (speaker) {
-    var tab = $("#tags");
-    tab.append($("<ul></ul>"));
-    amplify.request("stacker.User.Tags", { id: speaker.id }, function (data) {
-        $.each(data.items, function (i, tag) {
-            tab.find("ul").append("<li>" + tag.name + " x " + tag.count + "</li>");
-        });
-    });
-};
