@@ -1,24 +1,43 @@
 ﻿$(function () {
-    var speakers = [{
-        name: "Ralph Whitbeck",
-        id: "648"
-    },
-    {
-        name: "Jonathan Sampson",
-        id: "54680"
-    }];
 
-    $.each(speakers, function (i, speaker) {
-        amplify.request("stacker.User", { id: speaker.id }, function (data) {
-            var dataItem = data.items[0];
-            speakers[i].items = dataItem;
-            var li = $("<li></li>", { "data-id": dataItem.user_id }).html($("<img></img>", {
-                src: dataItem.profile_image + "&s=300",
-                alt: dataItem.display_name
-            }));
-            $("#side-bar ul").append(li);
-        });
+    var speakers = [
+        {
+            name: "Ralph Whitbeck",
+            id: "648"
+        },
+        {
+            name: "Jonathan Sampson",
+            id: "54680"
+        }
+    ];
+
+    $("#add-user").on("submit", function (e) {
+
+        e.preventDefault();
+        $(this).dialog("close");
+
+        var name = $("[name='fullname']", this).val();
+        var id = $("[name='userid']", this).val();
+
+        populateUsers([{ name: name, id: id }]);
+
     });
+
+    populateUsers();
+
+    function populateUsers(users) {
+        $.each(users || speakers, function (i, speaker) {
+            amplify.request("stacker.User", { id: speaker.id }, function (data) {
+                var dataItem = data.items[0];
+                speakers[i].items = dataItem;
+                var li = $("<li></li>", { "data-id": dataItem.user_id }).html($("<img></img>", {
+                    src: dataItem.profile_image + "&s=300",
+                    alt: dataItem.display_name
+                }));
+                $("#side-bar ul").append(li);
+            });
+        });
+    }
 
     var appbar = new WinJS.UI.AppBar(null, {
         layout: "custom",
@@ -34,14 +53,15 @@
             }),
             new WinJS.UI.AppBarCommand(null, {
                 icon: WinJS.UI.AppBarIcon.add,
-                label: "Add User"
+                label: "Add User",
+                onclick: function () {
+                    $("#add-user").dialog();
+                }
             })
         ]
     });
 
     $("body").append(appbar.element);
-
-
 
     $("#side-bar").on("click", "li", function (data) {
         var id = $(this).data("id");
