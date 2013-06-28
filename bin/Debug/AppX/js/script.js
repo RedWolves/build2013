@@ -5,49 +5,48 @@
         "u54680": { name: "Jonathan Sampson", id: "54680" }
     };
 
-    $("#add-user").on("submit", function (e) {
-
-        e.preventDefault();
-        $(this).dialog("close");
-
-        var name = $("[name='fullname']", this).val();
-        var id = $("[name='userid']", this).val();
-
-        speakers["u" + id] = { name: name, id: id };
-
-        populateUsers([{ name: name, id: id }]);
-
-    });
-
-    populateUsers();
+  
+    populateUsers(speakers);
 
     function populateUsers(users) {
-        $.each(users || speakers, function (i, speaker) {
-            amplify.request("stacker.User", { id: speaker.id }, function (data) {
+        $.each(users, function (i, user) {
+            amplify.request("stacker.User", { id: user.id }, function (data) {
                 var dataItem = data.items[0];
                 speakers["u" + dataItem.user_id].items = dataItem;
+
                 var li = $("<li></li>", { "data-id": dataItem.user_id }).html($("<img></img>", {
                     src: dataItem.profile_image + "&s=300",
                     alt: dataItem.display_name
                 }));
+
                 $("#side-bar ul").append(li);
             });
         });
     }
 
-    $.each(speakers, function (i, speaker) {
+    $("#add-user").dialog({
+        autoOpen: false,
+        width: 500,
+        height: 300,
+        modal: true,
+        buttons: {
+            "Submit": function () {
+                var name = $("[name='fullname']", this).val();
+                var id = $("[name='userid']", this).val();
 
-        amplify.request("stacker.User", { id: speaker.id }, function (data) {
-            var dataItem = data.items[0];
-            speakers[i].items = dataItem;
+                speakers["u" + id] = { name: name, id: id };
 
-            var li = $("<li></li>", { "data-id": dataItem.user_id }).html($("<img></img>", {
-                src: dataItem.profile_image + "&s=300",
-                alt: dataItem.display_name
-            }));
+                populateUsers([{ name: name, id: id }]);
 
-            $("#side-bar ul").append(li);
-        });
+                $(this).dialog("close");
+            },
+            "Cancel": function () {
+                $(this).dialog("close");
+            }
+        },
+        close: function() {
+            $(this).find("input[type='text']").val("");
+        }
     });
 
     var appbar = new WinJS.UI.AppBar(null, {
@@ -58,15 +57,16 @@
                 icon: WinJS.UI.AppBarIcon.home,
                 label: "Go Home",
                 onclick: function () {
-                    $("#side-bar").show();
-                    $("#dataCanvas").hide();
+                    $("#side-bar, #dataCanvas").toggle();
+
+                    $("#profile, #badges, #tags").html("");
                 }
             }),
             new WinJS.UI.AppBarCommand(null, {
                 icon: WinJS.UI.AppBarIcon.add,
                 label: "Add User",
                 onclick: function () {
-                    $("#add-user").dialog();
+                    $("#add-user").dialog("open");
                 }
             })
         ]
@@ -74,29 +74,18 @@
 
     $("body").append(appbar.element);
 
-<<<<<<< HEAD
-
-
     $("#side-bar").on("click", "li", function (data) {
         var id = $(this).data("id");
+
         $("#side-bar, #dataCanvas").toggle();
-=======
-    $("#side-bar").on("click", "li", function (data) {
-        var id = $(this).data("id");
-        $("#side-bar").hide();
-        $("#dataCanvas").show();
->>>>>>> 152d0c86a181f2fd29a0ce35cfec9769085be15f
 
-        amplify.request("stacker.User.Badges", { id: id }, function (data) {
-            $.each(speakers, function (i, speaker) {
-                if (speaker.id == id) {
-                    tab_profile(speaker);
-                    tab_badges(speaker);
-                    tab_tags(speaker);
-                    $("#tabs").tabs();
-                }
-            });
-        });
+        var speaker = speakers["u" + id];
+            
+        tab_profile(speaker);
+        tab_badges(speaker);
+        tab_tags(speaker);
+         $("#tabs").tabs();
+     
     });
 
 });

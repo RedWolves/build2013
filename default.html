@@ -39,10 +39,20 @@
             </div>
         </div>
     </div>
-    <form id="add-user" style="display: none;">
-        <label>User Name: <input name="fullname" /></label><br />
-        <label>User ID: <input name="userid" /></label><br />
-        <input type="submit" />
-    </form>
+    <div id="add-user" title="Add User">
+        <p>Add a new user</p>
+        <form>
+            <fieldset>
+                <div>
+                    <label>User Name: </label>
+                    <input name="fullname" id="fullname" value="">
+                </div>
+                <div>
+                    <label>User ID: </label>
+                    <input name="userid" id="userid" value="">
+                </div>
+            </fieldset>
+        </form>
+    </div>
 </body>
 </html>
