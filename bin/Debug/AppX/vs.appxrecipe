@@ -16,7 +16,7 @@
     <AppXManifest Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-06-27T02:06:11.992</Modified>
+      <Modified>2013-06-27T23:18:13.105</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -290,7 +290,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2013-06-27T14:17:14.650</Modified>
+      <Modified>2013-06-27T22:50:53.189</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\default.html">
       <PackagePath>default.html</PackagePath>
@@ -302,11 +302,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\js\ajax-definitions.js">
       <PackagePath>js\ajax-definitions.js</PackagePath>
-      <Modified>2013-06-27T02:14:51.911</Modified>
+      <Modified>2013-06-27T23:14:27.524</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\js\script.js">
       <PackagePath>js\script.js</PackagePath>
-      <Modified>2013-06-27T14:19:09.508</Modified>
+      <Modified>2013-06-27T23:18:08.518</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ralph\Documents\Visual Studio 2012\Projects\amplifyjs\Scripts\amplify-vsdoc.js">
       <PackagePath>Scripts\amplify-vsdoc.js</PackagePath>

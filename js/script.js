@@ -9,13 +9,16 @@
     }];
 
     $.each(speakers, function (i, speaker) {
+
         amplify.request("stacker.User", { id: speaker.id }, function (data) {
             var dataItem = data.items[0];
             speakers[i].items = dataItem;
+
             var li = $("<li></li>", { "data-id": dataItem.user_id }).html($("<img></img>", {
                 src: dataItem.profile_image + "&s=300",
                 alt: dataItem.display_name
             }));
+
             $("#side-bar ul").append(li);
         });
     });
@@ -28,8 +31,9 @@
                 icon: WinJS.UI.AppBarIcon.home,
                 label: "Go Home",
                 onclick: function () {
-                    $("#side-bar").show();
-                    $("#dataCanvas").hide();
+                    $("#side-bar, #dataCanvas").toggle();
+
+                    $("#profile, #badges, #tags").html("");
                 }
             }),
             new WinJS.UI.AppBarCommand(null, {
@@ -45,8 +49,8 @@
 
     $("#side-bar").on("click", "li", function (data) {
         var id = $(this).data("id");
-        $("#side-bar").hide();
-        $("#dataCanvas").show();
+
+        $("#side-bar, #dataCanvas").toggle();
 
         amplify.request("stacker.User.Badges", { id: id }, function (data) {
             $.each(speakers, function (i, speaker) {
@@ -58,11 +62,7 @@
                     $("#tabs").tabs();
                 }
             });
-
-
-
         });
-
     });
 });
 
