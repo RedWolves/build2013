@@ -319,10 +319,14 @@
     <AppxPackagedFile Include="C:\Users\jonathansampson\Documents\GitHub\build2013\js\script.js">
       <PackagePath>js\script.js</PackagePath>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <Modified>2013-06-27T23:18:08.518</Modified>
 =======
       <Modified>2013-06-28T01:54:51.848</Modified>
 >>>>>>> 152d0c86a181f2fd29a0ce35cfec9769085be15f
+=======
+      <Modified>2013-06-28T02:21:33.561</Modified>
+>>>>>>> 3f15bdeb0fb8d894028ee36e20e43e18108f52b8
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jonathansampson\Documents\GitHub\build2013\Scripts\amplify-vsdoc.js">
       <PackagePath>Scripts\amplify-vsdoc.js</PackagePath>

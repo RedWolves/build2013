@@ -1,15 +1,9 @@
 ﻿$(function () {
 
-    var speakers = [
-        {
-            name: "Ralph Whitbeck",
-            id: "648"
-        },
-        {
-            name: "Jonathan Sampson",
-            id: "54680"
-        }
-    ];
+    var speakers = { 
+        "u648": { name: "Ralph Whitbeck", id: "648" },
+        "u54680": { name: "Jonathan Sampson", id: "54680" }
+    };
 
     $("#add-user").on("submit", function (e) {
 
@@ -18,6 +12,8 @@
 
         var name = $("[name='fullname']", this).val();
         var id = $("[name='userid']", this).val();
+
+        speakers["u" + id] = { name: name, id: id };
 
         populateUsers([{ name: name, id: id }]);
     });
@@ -28,7 +24,7 @@
         $.each(users || speakers, function (i, speaker) {
             amplify.request("stacker.User", { id: speaker.id }, function (data) {
                 var dataItem = data.items[0];
-                speakers[i].items = dataItem;
+                speakers["u" + dataItem.user_id].items = dataItem;
                 var li = $("<li></li>", { "data-id": dataItem.user_id }).html($("<img></img>", {
                     src: dataItem.profile_image + "&s=300",
                     alt: dataItem.display_name
@@ -74,12 +70,12 @@
                     tab_profile(speaker);
                     tab_badges(speaker);
                     tab_tags(speaker);
-
                     $("#tabs").tabs();
                 }
             });
         });
     });
+
 });
 
 
