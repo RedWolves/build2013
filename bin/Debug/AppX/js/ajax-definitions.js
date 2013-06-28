@@ -15,8 +15,11 @@ var site_name = "stackoverflow";
 var site = "?order=asc&site=" + site_name;
 var user = {};
 
+<<<<<<< HEAD
 // pull back a specific stackoverflow user JSON object. 
 // More info: http://api.stackexchange.com/docs/users-by-ids
+=======
+>>>>>>> 152d0c86a181f2fd29a0ce35cfec9769085be15f
 amplify.request.define("stacker.User", "ajax", {
     url: api_url + "users/{id}" + site,
     type: "GET"
